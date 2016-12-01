@@ -3,7 +3,7 @@ try {
   type = require('type-of')
 } catch (ex) {
   //hide from browserify
-  type = require('type/check.js')
+  type = require('type/checks.js')
 }
 
 var jsonpID = 0,
